@@ -79,7 +79,6 @@ public class Main {
     }
     System.out.println(childName);
     
-    
     //тернарный оператор
     childName = sex == 'm'
       ? "Valentin"
@@ -90,7 +89,6 @@ public class Main {
     String toBePrint = "HelloWorld";
     //Список
     List<String> teachers = List.of("1","2");
-    
     
     //Ключевое слово new - для создания объектов исключение String и примитивные типы данных
     
