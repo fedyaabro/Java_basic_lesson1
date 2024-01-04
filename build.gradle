@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'qa_guru_hw3'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.1')
+}
+
+test {
+    useJUnitPlatform()
+}
