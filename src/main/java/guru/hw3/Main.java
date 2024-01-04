@@ -42,17 +42,17 @@ public class Main {
     System.out.println("b / a = " + (b / a));
     System.out.println("b % a = " + (b % a));
     System.out.println("c % a = " + (c % a));
-    System.out.println("a++   = " +  (++a));
-    System.out.println("b--   = " +  (--a));
+    System.out.println("a++   = " + (++a));
+    System.out.println("b--   = " + (--a));
     // Проверьте разницу в d++ и ++d
     
     /**Постфиксная и префиксная запись инкрементов и дикрементов - очень интересно, но понятно не сразу**/
-    System.out.println("d++   = " +  (d++));
-    System.out.println("++d   = " +  (++d));
+    System.out.println("d++   = " + (d++));
+    System.out.println("++d   = " + (++d));
     
     //Сравнения > < >= <= != ==
     /**Нельза стравнивать == данные объектого типа, например String - нужно использовать equals**/
-    System.out.println(3>=2);
+    System.out.println(3 >= 2);
     //Логические операторы &, &&, |, ||, !
     /** && не вычесляет остаток выражения, если результат уже известен**/
     String myName = "Fedor";
@@ -66,19 +66,18 @@ public class Main {
     Character sex = 'm';
     String childName;
     
-    if(a >= b){
+    if (a >= b) {
       System.out.println("a > b");
-    } else{
+    } else {
       System.out.println("b > a");
     }
     
-    if(sex == 'm'){
+    if (sex == 'm') {
       childName = "Valentin";
-    }else {
+    } else {
       childName = "Valentina";
     }
     System.out.println(childName);
-    
     
     //тернарный оператор
     childName = sex == 'm'
@@ -89,12 +88,9 @@ public class Main {
     //Строка ( и бесконечность объектных/ссылочных типов данных)
     String toBePrint = "HelloWorld";
     //Список
-    List<String> teachers = List.of("1","2");
-    
+    List<String> teachers = List.of("1", "2");
     
     //Ключевое слово new - для создания объектов исключение String и примитивные типы данных
-    
-    
     
     
   }
