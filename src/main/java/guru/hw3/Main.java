@@ -90,6 +90,7 @@ public class Main {
     //Список
     List<String> teachers = List.of("1","2");
     
+    
     //Ключевое слово new - для создания объектов исключение String и примитивные типы данных
     
     
