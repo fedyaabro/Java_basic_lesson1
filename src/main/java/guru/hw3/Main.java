@@ -79,7 +79,6 @@ public class Main {
     }
     System.out.println(childName);
     
-    
     //тернарный оператор
     childName = sex == 'm'
       ? "Valentin"
